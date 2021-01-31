@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Marvin的博客</title>
-  
+  <icon>https://www.gravatar.com/avatar/1ed7bf7dda66ca678ac6fb530fceae6e</icon>
   <subtitle>Marvin的研究笔记</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>Marvin Wang</name>
-    
+    <email>mingwen.marvin@outlook.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
