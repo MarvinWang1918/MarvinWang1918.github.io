@@ -3,11 +3,11 @@
   <title>Marvin的博客</title>
   <icon>https://www.gravatar.com/avatar/1ed7bf7dda66ca678ac6fb530fceae6e</icon>
   <subtitle>Marvin的研究笔记--区块链与数字货币</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://marvinwang1918.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://marvinwang1918.github.io/"/>
   <updated>2021-01-31T09:52:02.891Z</updated>
-  <id>http://example.com/</id>
+  <id>https://marvinwang1918.github.io/</id>
   
   <author>
     <name>Marvin Wang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/01/31/hello-world/"/>
-    <id>http://example.com/2021/01/31/hello-world/</id>
+    <link href="https://marvinwang1918.github.io/2021/01/31/hello-world/"/>
+    <id>https://marvinwang1918.github.io/2021/01/31/hello-world/</id>
     <published>2021-01-31T09:52:02.891Z</published>
     <updated>2021-01-31T09:52:02.891Z</updated>
     
