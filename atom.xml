@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Marvin的博客</title>
   <icon>https://www.gravatar.com/avatar/1ed7bf7dda66ca678ac6fb530fceae6e</icon>
-  <subtitle>Marvin的研究笔记-区块链与数字货币</subtitle>
+  <subtitle>Marvin的研究笔记--区块链与数字货币</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
