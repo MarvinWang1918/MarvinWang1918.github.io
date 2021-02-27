@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="区块链与数字货币的研究笔记">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>
+        
+        DeFi项目研究———MCDEX - Marvin的研究笔记
+        
+    </title>
+
+    <!-- Custom CSS -->
+    
+<link rel="stylesheet" href="/css/aircloud.css">
+
+    
+<link rel="stylesheet" href="/css/gitment.css">
+
+    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
+    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
+    <!-- ga & ba script hoook -->
+    <script></script>
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Marvin的博客" type="application/atom+xml">
+</head>
+
+<body>
+
+<div class="site-nav-toggle" id="site-nav-toggle">
+    <button>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+    </button>
+</div>
+
+<div class="index-about">
+    <i> Marvin的研究笔记--区块链与数字货币 </i>
+</div>
+
+<div class="index-container">
+    
+    <div class="index-left">
+        
+<div class="nav" id="nav">
+    <div class="avatar-name">
+        <div class="avatar ">
+            <img src="/img/avatar.jpg" />
+        </div>
+        <div class="name">
+            <i>Marvin Wang</i>
+        </div>
+    </div>
+    <div class="contents" id="nav-content">
+        <ul>
+            <li >
+                <a href="/">
+                    <i class="iconfont icon-shouye1"></i>
+                    <span>主页</span>
+                </a>
+            </li>
+            <li >
+                <a href="/tags">
+                    <i class="iconfont icon-biaoqian1"></i>
+                    <span>标签</span>
+                </a>
+            </li>
+            <li >
+                <a href="/archives">
+                    <i class="iconfont icon-guidang2"></i>
+                    <span>存档</span>
+                </a>
+            </li>
+            <li >
+                <a href="/about/">
+                    <i class="iconfont icon-guanyu2"></i>
+                    <span>关于</span>
+                </a>
+            </li>
+            
+            <li>
+                <a id="search">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <span>搜索</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#MCDEX-%E6%98%AF%E5%9F%BA%E4%BA%8E-Mai-%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%B8%80%E4%B8%AA%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E7%9A%84%E6%B0%B8%E7%BB%AD%E5%90%88%E7%BA%A6%E4%B8%8E%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93%E6%89%80%E3%80%82"><span class="toc-text">MCDEX 是基于 Mai 协议的一个去中心化的永续合约与期货交易所。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#MCDEX%E4%BB%A3%E5%B8%81%E7%BB%8F%E6%B5%8E%E4%B8%8E%E4%BB%B7%E5%80%BC"><span class="toc-text">MCDEX代币经济与价值</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#MCDEX%E8%B7%AF%E7%BA%BF%E5%9B%BE%E5%8F%8A%E4%BA%A7%E5%93%81"><span class="toc-text">MCDEX路线图及产品</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A1%8D%E7%94%9F%E5%93%81DEX%E5%AF%B9%E6%AF%94"><span class="toc-text">衍生品DEX对比</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-text">总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%84%E7%BA%A7%EF%BC%9A-BB"><span class="toc-text">评级： BB+</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99%EF%BC%9A"><span class="toc-text">官方资料：</span></a></li></ol>
+</div>
+    
+</div>
+
+
+<div class="search-field" id="search-field">
+    <div class="search-container">
+        <div class="search-input">
+            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
+            <input id="search-input"/>
+            <span id="begin-search">搜索</span>
+        </div>
+        <div class="search-result-container" id="search-result-container">
+
+        </div>
+    </div>
+</div>
+
+        <div class="index-about-mobile">
+            <i> Marvin的研究笔记--区块链与数字货币 </i>
+        </div>
+    </div>
+    
+    <div class="index-middle">
+        <!-- Main Content -->
+        
+
+
+<div class="post-container">
+    <div class="post-title">
+        DeFi项目研究———MCDEX
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2021-02-27 17:40:50</span></span>
+        
+        <span class="attr">标签：/
+        
+        <a class="tag" href="/tags/#DeFi 项目研究" title="DeFi 项目研究">DeFi 项目研究</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <p>关键词： 衍生品交易所 MCDEX </p>
+<h2 id="MCDEX-是基于-Mai-协议的一个去中心化的永续合约与期货交易所。"><a href="#MCDEX-是基于-Mai-协议的一个去中心化的永续合约与期货交易所。" class="headerlink" title="MCDEX 是基于 Mai 协议的一个去中心化的永续合约与期货交易所。"></a>MCDEX 是基于 Mai 协议的一个去中心化的永续合约与期货交易所。</h2><ol>
+<li><p>Layer-2技术采取：Optimistic rollup</p>
+</li>
+<li><p>Mai协议由MCDEX团队开发，该协议为永续合约产品赋予了额外的能力，并引入了AMM作为替代流动性提供者。</p>
+</li>
+<li><p>MCDEX支持无到期日的永续合约和有到期日的期货交易。永续合约方面，目前支持去中心化的 ETH 永续合约（ETH-ERP，10倍杠杆），由 AMM（自动做市商）提供链上流动性，同时还有一个链下订单簿。</p>
+</li>
+</ol>
+<h2 id="MCDEX代币经济与价值"><a href="#MCDEX代币经济与价值" class="headerlink" title="MCDEX代币经济与价值"></a>MCDEX代币经济与价值</h2><ol>
+<li><p>代币：MCB </p>
+</li>
+<li><p>MCB合约址:0x4e352cf164e64adcbad318c3a1e222e9eba4ce423.</p>
+</li>
+<li><p>MCB将具有以下功能：</p>
+</li>
+</ol>
+<p><strong>治理币</strong> ：MCB是MCDEX平台的治理代币。MCDEX平台的治理权由MCB的持有人所有。MCB的持有人通过投票履行治理权。<br><strong>价值捕获</strong> ：MCDEX平台订单簿的100%交易手续费，AMM的20%的手续费（剩余80%归于AMM的LP）将用于买入MCB并销毁。<br><strong>提供AMM流动性</strong> ：我们将在后续逐步升级AMM，使用MCB作为AMM逻辑上的抵押物，从而使得MCB可以为AMM提供流动性。承担清算风险并获得清算收益：我们将在之后的升级中，使得MCB的持有人共同作为清算人，承担所有的清算风险。同时我们也会将所有的清算罚金用于购入MCB并销毁，从而使得MCB可以捕获所有的清算收益。</p>
+<ol start="4">
+<li>MCB的总量为100,000,000个，MCB的分配方式如下：</li>
+</ol>
+<p>25%归属创始团队和早期投资人，2.25%在2年内线性解锁，22.75%在4年内线性解锁；</p>
+<p>25%归属MCDEX基金会用于代币出售，获得的资金用于支付开发、审计、做市商、市场推广等支出；</p>
+<p>50%用于用户激励。每年至多有5%的MCB会用于用户激励；其中，2020年9月1日起，团队和投资人部分停止释放6个月，从2021年3月1日起恢复释放。</p>
+<p><img src="/Users/MarvinWANG/blog/source/pic/MCDEX1.png" alt="MCDEX代币分发"> </p>
+<h2 id="MCDEX路线图及产品"><a href="#MCDEX路线图及产品" class="headerlink" title="MCDEX路线图及产品"></a>MCDEX路线图及产品</h2><p><strong>MCDEX路线图：</strong></p>
+<p>![MCDEX路线图](/Users/MarvinWANG/blog/source/pic/MCDEX\ 2.png )</p>
+<p><strong>MCDEX永续合约产品分析</strong></p>
+<p>MCDEX永续合约是一种类似期货合约的金融衍生品，与传统期货合约不同的是，永续合约没有到期日期。MCDEX永续合约使用了部署在以太坊上的Mai Protocol V2 智能合约。</p>
+<p>目前，MCDEX永续合约有两个交易界面，对应两种交易方式：</p>
+<p><strong>订单簿</strong>：通过订单簿匹配交易双方，类似于中心化交易所的永续合约。</p>
+<p><strong>自动做市商(AMM)</strong> ：与AMM作为对手方进行交易，完全去中心化。MCDEX永续合约通过实时资金费率将永续合约的价格锚定到指数价格。如果永续合约的交易价格高于指数价格，则多头头寸持有人向空头头寸持有人支付资金费用。通过这个方式增加了多头头寸持有者的持有成本，导致他们最终进行了卖出操作，从而将永续合约价格压低到指数价格。同样，如果永续合约的交易价格低于指数价格，则空头头寸持有人会向多头头寸持有人支付资金费用。通过这个方式增加了空头持有者的持有成本，导致他们最终进行了买入操作，从而将永续合约价格抬高到指数价格。</p>
+<p>MCDEX永续合约持续计算永续合约的标记价格与Chainlink的ETH / USD指数价格之间的差值。并用这个差值来计算永续合约的8小时资金费率。资金费用每秒钟自动计算一次，并实现到已实现盈亏中（也是可用交易余额的一部分）。您可以随时从保证金账户中提取这些已实现的盈亏。<br><strong>合约参数</strong> ：<br>![](/Users/MarvinWANG/blog/source/pic/MCDEX\ 3.png )<br>![MCDEX产品-永续合约参数](/Users/MarvinWANG/blog/source/pic/MCDEX\ 4.png )</p>
+<p><strong>MCB近日市场表现MCB各交易所价格</strong> ：<br><img src="" alt="*数据来源：MCB各交易所价格，截止至2021年2月27日，来源：coinmarketcapMCB*">/Users/MarvinWANG/blog/source/pic/MCDEX5.png)</p>
+<p><strong>二级市场价格表现</strong> ：<br><img src="/Users/MarvinWANG/blog/source/pic/MCDEX6.png" alt="*数据来源：MCB二级市场价格表现，截止至2021年2月27日，来源：coinmarketcap*"></p>
+<h2 id="衍生品DEX对比"><a href="#衍生品DEX对比" class="headerlink" title="衍生品DEX对比"></a>衍生品DEX对比</h2><p><img src="/Users/MarvinWANG/blog/source/pic/MCDEX7.png" alt="*MCDEX、dYdX、UNISWAP、SUSHISWAP数据对比，截止至2021年2月27日*"></p>
+<ul>
+<li><p>从数据对比来看，当前衍生品交易所DEX锁仓量较UNISWAP、SushiSWAP而言仍有较大差距。考虑到项目开始时间较晚因素，可以预见MCDEX的TVL也将增加。</p>
+</li>
+<li><p>MCDEX的流通市值与总市值的比值（VP，下同）为0.0567，仅为UNISWAP的1/3，为Synthetix的1/2。考虑到MCDEX暂未在主流交易所上币，投资者对MCDEX项目代币了解较少的因素，我们有理由相信，随着MCB在主流交易所上币后，会对MCB市价有正向的推动作用。预计随着MCB在更多交易所上币时，其VP比值将在0.1左右。</p>
+</li>
+</ul>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>按照传统金融市场分布来看，衍生品交易才是金融真正的魅力所在；就市值而言，金融衍生品市值是现货市值的20倍左右。当前layer-2是市场主流热点方向，且预估layer-2市值将占Ethereum的总市值的20%； 主流观点认为，layer-2也即将产生DeFi巨头，类似于layer-1时代下的UNISWAP等。因此，在layer-2时代即将到来之际，我们有理由重点关注，金融衍生品DEX的发展状况，并对其进行深入分析。</p>
+<p>MCDEX是一家采用layer-2方案的永续合约和期货交易所。预估随着MCB登陆更多交易所后，MCB价格将得到较大提升。</p>
+<h2 id="评级：-BB"><a href="#评级：-BB" class="headerlink" title="评级： BB+"></a>评级： BB+</h2><h2 id="官方资料："><a href="#官方资料：" class="headerlink" title="官方资料："></a>官方资料：</h2><p>所在地：北京</p>
+<p>项目审计方：OpenZeppelin 和 Consensys</p>
+<p>投资方：</p>
+<p>Arthur Cheong(DeFinance Capital)</p>
+<p>Qiao Wang</p>
+<p>DeFi Dad(Zapper)</p>
+<p>杨民道(dForce CEO)</p>
+<p>雷宇(Fortube CEO)</p>
+<p>张元杰(Conflux co-founder)</p>
+<p>Steve Guo(Loopring CTO)</p>
+<p>雷明达(DODO co-founder)</p>
+<p>Leo Cui (Talking Data)</p>
+<p>YOOZOO Games</p>
+<p>网址：<a target="_blank" rel="noopener" href="https://mcdex.io/">https://mcdex.io/</a></p>
+<p>白皮书：<a target="_blank" rel="noopener" href="https://mcdex.io/references/#/en-US/white-paper">https://mcdex.io/references/#/en-US/white-paper</a></p>
+<p>Github: <a target="_blank" rel="noopener" href="https://github.com/mcdexio">https://github.com/mcdexio</a></p>
+<p>Blog: <a target="_blank" rel="noopener" href="https://medium.com/@montecarlodex">https://medium.com/@montecarlodex</a></p>
+<p>Telegram: <a target="_blank" rel="noopener" href="https://t.me/Mcdex">https://t.me/Mcdex</a></p>
+<p>Twitter: <a target="_blank" rel="noopener" href="https://twitter.com/MonteCarloDEX">https://twitter.com/MonteCarloDEX</a></p>
+
+        
+            <div class="donate-container">
+    <div class="donate-button">
+        <button id="donate-button">赞赏</button>
+    </div>
+    <div class="donate-img-container hide" id="donate-img-container">
+        <img id="donate-img" src="" data-src="/img/marvin&#39;seth.png">
+        <p> 感谢#以太币#打赏 </p>
+    </div>
+</div>
+        
+        <br />
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
+
+    </div>
+</div>
+
+
+<footer class="footer">
+    <ul class="list-inline text-center">
+        
+        
+
+        
+
+        
+
+        
+        <li>
+            <a target="_blank"  href="https://github.com/MarvinWang1918">
+                            <span class="fa-stack fa-lg">
+                                <i class="iconfont icon-github"></i>
+                            </span>
+            </a>
+        </li>
+        
+
+        
+        <li>
+            <a target="_blank"  href="https://www.linkedin.com/in/Marvin WANG(王明文)">
+                            <span class="fa-stack fa-lg">
+                                <i class="iconfont icon-linkedin"></i>
+                            </span>
+            </a>
+        </li>
+        
+
+    </ul>
+    
+    <p>
+        <span id="busuanzi_container_site_pv">
+            <span id="busuanzi_value_site_pv"></span>PV
+        </span>
+        <span id="busuanzi_container_site_uv">
+            <span id="busuanzi_value_site_uv"></span>UV
+        </span>
+        Adapted by Marvin, Original Theme <a target="_blank" rel="noopener" href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
+</footer>
+
+
+
+
+</body>
+
+<script>
+    // We expose some of the variables needed by the front end
+    window.hexo_search_path = "search.json"
+    window.hexo_root = "/"
+    window.isPost = true
+</script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="/js/index.js"></script>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+    <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+        */
+        if( '' || '')
+        var disqus_config = function () {
+            this.page.url = '';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = ''; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://airclouds-blog.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+
+
+
+</html>
