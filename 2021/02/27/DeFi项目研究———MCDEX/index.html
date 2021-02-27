@@ -159,13 +159,14 @@
 <p>50%用于用户激励。每年至多有5%的MCB会用于用户激励；其中，2020年9月1日起，团队和投资人部分停止释放6个月，从2021年3月1日起恢复释放。</p>
 <p><img src="/Users/MarvinWANG/blog/source/pic/MCDEX1.png" alt="MCDEX代币分发"> </p>
 <h2 id="MCDEX路线图及产品"><a href="#MCDEX路线图及产品" class="headerlink" title="MCDEX路线图及产品"></a>MCDEX路线图及产品</h2><p><strong>MCDEX路线图：</strong></p>
-<p>![MCDEX路线图](/Users/MarvinWANG/blog/source/pic/MCDEX\ 2.png )</p>
+<p>![MCDEX路线图](/Users/MarvinWANG/blog/source/pic/MCDEX\ 2.png)</p>
 <p><strong>MCDEX永续合约产品分析</strong></p>
 <p>MCDEX永续合约是一种类似期货合约的金融衍生品，与传统期货合约不同的是，永续合约没有到期日期。MCDEX永续合约使用了部署在以太坊上的Mai Protocol V2 智能合约。</p>
 <p>目前，MCDEX永续合约有两个交易界面，对应两种交易方式：</p>
 <p><strong>订单簿</strong>：通过订单簿匹配交易双方，类似于中心化交易所的永续合约。</p>
 <p><strong>自动做市商(AMM)</strong> ：与AMM作为对手方进行交易，完全去中心化。MCDEX永续合约通过实时资金费率将永续合约的价格锚定到指数价格。如果永续合约的交易价格高于指数价格，则多头头寸持有人向空头头寸持有人支付资金费用。通过这个方式增加了多头头寸持有者的持有成本，导致他们最终进行了卖出操作，从而将永续合约价格压低到指数价格。同样，如果永续合约的交易价格低于指数价格，则空头头寸持有人会向多头头寸持有人支付资金费用。通过这个方式增加了空头持有者的持有成本，导致他们最终进行了买入操作，从而将永续合约价格抬高到指数价格。</p>
-<p>MCDEX永续合约持续计算永续合约的标记价格与Chainlink的ETH / USD指数价格之间的差值。并用这个差值来计算永续合约的8小时资金费率。资金费用每秒钟自动计算一次，并实现到已实现盈亏中（也是可用交易余额的一部分）。您可以随时从保证金账户中提取这些已实现的盈亏。<br><strong>合约参数：</strong><br>![MCDEX产品-永续合约参数](/Users/MarvinWANG/blog/source/pic/MCDEX\ 3.png )<br>![MCDEX产品-永续合约参数]/Users/MarvinWANG/blog/source/pic/MCDEX\ 4.png )</p>
+<p>MCDEX永续合约持续计算永续合约的标记价格与Chainlink的ETH / USD指数价格之间的差值。并用这个差值来计算永续合约的8小时资金费率。资金费用每秒钟自动计算一次，并实现到已实现盈亏中（也是可用交易余额的一部分）。您可以随时从保证金账户中提取这些已实现的盈亏。<br><strong>合约参数</strong> ：</p>
+<p>![MCDEX产品-永续合约参数](/Users/MarvinWANG/blog/source/pic/MCDEX\ 3.png )<br>![MCDEX产品-永续合约参数]/Users/MarvinWANG/blog/source/pic/MCDEX\ 4.png )</p>
 <p><strong>MCB近日市场表现MCB各交易所价格</strong> ：<br><img src="" alt="*数据来源：MCB各交易所价格，截止至2021年2月27日，来源：coinmarketcapMCB*">/Users/MarvinWANG/blog/source/pic/MCDEX5.png)</p>
 <p><strong>二级市场价格表现</strong> ：<br><img src="/Users/MarvinWANG/blog/source/pic/MCDEX6.png" alt="*数据来源：MCB二级市场价格表现，截止至2021年2月27日，来源：coinmarketcap*"></p>
 <h2 id="衍生品DEX对比"><a href="#衍生品DEX对比" class="headerlink" title="衍生品DEX对比"></a>衍生品DEX对比</h2><p><img src="/Users/MarvinWANG/blog/source/pic/MCDEX7.png" alt="*MCDEX、dYdX、UNISWAP、SUSHISWAP数据对比，截止至2021年2月27日*"></p>
